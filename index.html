@@ -15,7 +15,7 @@
       margin: 0;
       background: #f2f2f2;
       font-family: 'Poppins', sans-serif;
-      min-height: 100svh;          /* better on mobile than 100vh */
+      min-height: 100svh;          
       display: flex;
       justify-content: center;
       align-items: center;
@@ -23,20 +23,20 @@
     }
 
     .card {
-      position: relative;          /* logo anchors to this */
+      position: relative;          
       width: min(360px, 92vw);
       background: #fff;
       border-radius: 20px;
       text-align: center;
-      padding: 70px 24px 26px;     /* top padding makes room for the overlapping logo */
+      padding: 70px 24px 26px;     
       box-shadow: 0 10px 30px rgba(0,0,0,0.10);
     }
 
     .logo {
       position: absolute;
-      top: 0;                      /* always at the top edge of card */
+      top: 0;                      
       left: 50%;
-      transform: translate(-50%, -50%); /* push it up half its size */
+      transform: translate(-50%, -50%); 
       width: 110px;
       height: 110px;
       border-radius: 50%;
@@ -77,7 +77,7 @@
 
 <body>
   <div class="card">
-    <!-- Put logo INSIDE the card so it stays fixed to the card -->
+    
     <img src="akhu.png" alt="Logo" class="logo">
 
     <h2>Al-Xorazmiy Universiteti</h2>
